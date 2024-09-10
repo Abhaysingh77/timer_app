@@ -1,0 +1,61 @@
+.timer_app {
+    max-width: 40vw;
+    margin: 0 auto;
+    padding: 2rem;
+    text-align: center;
+    background-color: #e3dddd;
+    color:rgb(71, 97, 135);
+    border-radius: 10px;
+    box-shadow: 0px 0px 10px white;
+  }
+  .timer{
+    font-size: 6rem;
+    font-weight:bold;
+  }
+  .timer_display{
+    visibility: hidden;
+  }
+  .milliseconds{
+    font-size: 3rem;
+  }
+  #title {
+    font-size: 2rem;
+  }
+  #btn-group{
+    font-size: 2rem;
+  }
+  
+  #btn-group span {
+    margin: 0.5rem;
+    cursor: pointer;
+  }
+  @keyframes bounce {
+    0% { transform: scale(1); }
+    50% { transform: scale(0.9); }
+    100% { transform: scale(1); }
+  }
+
+  .bounce_animation{
+    animation : bounce 0.5s ease-in-out;
+  }
+  #reset{
+    transition: all 0.2s;
+    display: inline-block;
+  }
+ 
+  table{
+    margin: 10px auto;
+  }
+
+  table{
+    border-collapse: collapse;
+  }
+  th{
+    border-bottom: 1px solid white;
+  }
+  td{
+    
+    padding: 0px 50px;
+    
+  }
+  
